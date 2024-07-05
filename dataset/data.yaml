@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['License Plate']
+
+roboflow:
+  workspace: eda-mrztt
+  project: special-plates-new
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eda-mrztt/special-plates-new/dataset/1
